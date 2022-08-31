@@ -128,7 +128,7 @@ function renderItems() {
         // img.style.left = `${getRandomIntInclusive(0, width - maxItemLength*2)}px`;
         // img.style.top = `${getRandomIntInclusive(0, height - maxItemLength*2)}px`;
 
-        img.style.left = `${getRandomIntInclusive(-width + 50, (window.innerWidth - width) -150)}px`;
+        img.style.left = `${getRandomIntInclusive(-wrapperX + 50, (window.innerWidth - width) -150)}px`;
         // img.style.left = `${getRandomPosition(-wrapperX, -150, width, window.innerWidth - width - 150)}px`;
         img.style.top = `${getRandomIntInclusive(-wrapperY , height + (window.innerHeight - ( wrapperY + height)) - 160)}px`;
         // img.style.top = `${getRandomPosition(-wrapperY, -150, height, window.innerHeight - height - 150)}px`;
